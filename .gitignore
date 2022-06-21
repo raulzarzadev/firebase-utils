@@ -104,13 +104,8 @@ build/Release
 node_modules/
 jspm_packages/
 
-<<<<<<< HEAD
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
-=======
-# TypeScript v1 declaration files
-typings/
->>>>>>> 03d922417e1877e3f8959c2b2669984ce5748101
 
 # TypeScript cache
 *.tsbuildinfo
@@ -121,12 +116,9 @@ typings/
 # Optional eslint cache
 .eslintcache
 
-<<<<<<< HEAD
 # Optional stylelint cache
 .stylelintcache
 
-=======
->>>>>>> 03d922417e1877e3f8959c2b2669984ce5748101
 # Microbundle cache
 .rpt2_cache/
 .rts2_cache_cjs/
@@ -159,6 +151,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
+/dist
 
 # Gatsby files
 .cache/
