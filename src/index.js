@@ -1,21 +1,9 @@
-import { initializeApp } from 'firebase/app'
-import {
-    browserSessionPersistence,
-    getAuth,
-    GoogleAuthProvider,
-    initializeAuth,
-    onAuthStateChanged,
-    signInWithPopup,
-    signOut
-} from 'firebase/auth'
-import { getFirestore } from 'firebase/firestore'
-import { getStorage } from 'firebase/storage'
-import { FirebaseConfig } from './models/firebaseConfig.model'
+
 // import { getUser } from './users'
 
 
 
-export class FirebaseClass {
+class FirebaseClass {
 
     static init(){
         console.log('comenzando')
@@ -93,3 +81,6 @@ export class FirebaseClass {
  */
 
 } 
+
+
+module.exports = {FirebaseClass}

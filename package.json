@@ -1,5 +1,5 @@
 {
-  "name": "firebase-utils",
+  "name": "firebase-9-utils",
   "version": "0.1.0",
   "description": "firebase utils for version 9.8.3 ",
   "main": "src/index.js",
@@ -27,7 +27,7 @@
   "dependencies": {
     "firebase": "^9.8.3"
   },
-  "bin":{
-		"firebase-utils":"./bin/global.js"
-	}
+  "bin": {
+    "firebase-utils": "bin/global.js"
+  }
 }
