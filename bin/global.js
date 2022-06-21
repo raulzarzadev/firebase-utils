@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
 
-const { FirebaseClass } = require('../src/index')
+const { FirebaseClass } = require('../dist/index')
 
 FirebaseClass.init()
