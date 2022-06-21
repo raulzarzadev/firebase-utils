@@ -1,5 +1,5 @@
 export interface FirebaseConfig {
-  projectName: string
+  projectName: string;
   apiKey: string;
   authDomain: string;
   projectId: string;

@@ -1,6 +1,6 @@
-import { FirebaseClass } from '../index'
+import { FirebaseClass } from '../index';
 
 test('my first test', () => {
-    const init = FirebaseClass.init
-    expect(init({ projectName:'Firebase-utils' })).toBe('started')
-})
+  const init = FirebaseClass.init;
+  expect(init({ projectName: 'Firebase-utils' })).toBe('started');
+});

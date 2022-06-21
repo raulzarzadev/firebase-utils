@@ -1,5 +1,3 @@
-import { FirebaseConfig } from "../models/firebaseConfig.model";
+import { FirebaseConfig } from '../models/firebaseConfig.model';
 
-export interface CreateFirebaseDTO extends Pick<FirebaseConfig, 'projectName'> {
-
-}
+export interface CreateFirebaseDTO extends Pick<FirebaseConfig, 'projectName'> {}

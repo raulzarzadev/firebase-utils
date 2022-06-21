@@ -3,14 +3,13 @@
 import { CreateFirebaseDTO } from './dtos/createFirebaseApp.dto';
 
 class FirebaseClass {
-    static init(params: CreateFirebaseDTO) {
-        console.log('comenzando');
-        console.log('params', params);
-        return 'started'
-    }
-    
+  static init(params: CreateFirebaseDTO) {
+    console.log('comenzando');
+    console.log('params', params);
+    return 'started';
+  }
 
-    /*   init(firebaseConfig: FirebaseConfig) {
+  /*   init(firebaseConfig: FirebaseConfig) {
             this.app = initializeApp(firebaseConfig)
         }
     
@@ -81,5 +80,5 @@ class FirebaseClass {
      */
 }
 
-export { FirebaseClass }
+export { FirebaseClass };
 // module.exports = { FirebaseClass };
