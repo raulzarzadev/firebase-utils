@@ -1,0 +1,33 @@
+{
+  "name": "firebase-utils",
+  "version": "0.1.0",
+  "description": "firebase utils for version 9.8.3 ",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/raulzarzadev/firebase-utils.git"
+  },
+  "keywords": [
+    "firebase",
+    "javascript",
+    "utils"
+  ],
+  "author": "Raul Zarza <raulzarza.dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raulzarzadev/firebase-utils/issues"
+  },
+  "homepage": "https://github.com/raulzarzadev/firebase-utils#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "firebase": "^9.8.3"
+  },
+  "bin":{
+		"firebase-utils":"./bin/global.js"
+	}
+}
